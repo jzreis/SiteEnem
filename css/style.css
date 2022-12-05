@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+:root { /* Declarando a paleta de cores através de variáveis */
+    --color1: #141018;
+    --color2: #103146;
+    --color3: #0c5e7e;
+    --color4: #0892be;
+    --color5: #07d0ff;
+    --color6: #000000;
+    --color7: #ffffff;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    background-color: var(--color1);
+    color:#ffffff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+}
+
+.menu{
+    display: flex;  
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--color2);
+    height: 8vh;
+    margin-bottom: 50px;
+}
+
+.navlist{
+    list-style:none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    display: flex;
+}
+
+.navlist li{
+    margin: 10px;
+}
+
+.navlist li a{
+    color: var(--color7);
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    color:var(--color5);
+}
+
+.navlist ul a{
+    color: var(--color7);
+    text-decoration: none;
+}
+
+.navlist ul a:hover{
+    color:var(--color5);
+}
+
+
+

@@ -1,0 +1,30 @@
+.materias{
+    width: 60%;
+    margin:auto;
+    margin-bottom:100px;
+}
+
+.materias h1{
+    color:var(--color4);
+    margin: 10px 0px 15px 0px;
+    font-size:30px;
+    text-align: center;
+}
+
+.materias ul{
+    list-style: none;
+}
+
+.materias li{
+    padding: 5px;
+    font-size: 25px;
+}
+
+.materias a{
+    text-decoration: none;
+    color: var(--color4);
+}
+
+.materias a:hover{
+    color: var(--color5);
+}
