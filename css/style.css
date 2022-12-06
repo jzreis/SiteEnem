@@ -66,6 +66,12 @@ nav{
 .navlist ul a:hover{
     color:var(--color5);
 }
+p{
+    letter-spacing: 1px;
+    color:var(--color7);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 

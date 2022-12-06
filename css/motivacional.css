@@ -1,17 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
+}
+
 .motivacao2000{
-    width: 80%;
-    padding: 7px;
-    margin: auto;
+    width: 85%;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .motivacao2000 iframe{
-    margin: 0.3%;
+    margin:auto;
     border-radius: 5%;
 }
 
 .motivacao2000 h1{
+    font-size: 50px;
     color: var(--color4);
-    padding: 10px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.motivacao2000 p{
+    font-size: 20px;
+    color: var(--color7);
+    letter-spacing: 0.5px;
+    padding: 5px;
     margin: auto;
     text-align: justify;
 }

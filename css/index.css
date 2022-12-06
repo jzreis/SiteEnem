@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
+}
+
 .marketing{
     width: 60%;
     margin: auto;
@@ -16,7 +23,7 @@
 
 .marketing h2{
     color:var(--color7);
-    text-align: justify;
+    text-align: center;
     font-size: 25px;
     margin: 15px;
 }
@@ -44,7 +51,7 @@
     border: solid 2px var(--color2);
     padding: 22px;
     margin-bottom: 100px;
-    text-align: justify;
+    text-align: center;
 }
 
 .trilhaestudos h1{
@@ -59,7 +66,7 @@
     color:var(--color7);
 }
 
-.trilhaestudos ul{
+.trilhaestudos ol{
     list-style: none;
 }
 

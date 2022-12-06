@@ -1,11 +1,8 @@
-:root { /* Declarando a paleta de cores através de variáveis */
-    --color1: #141018;
-    --color2: #103146;
-    --color3: #0c5e7e;
-    --color4: #0892be;
-    --color5: #07d0ff;
-    --color6: #000000;
-    --color7: #ffffff;
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
 }
 
 .red{
@@ -30,13 +27,16 @@
 .red p{
     text-align: justify;
     font-size: 20px;
-    padding: 15px;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
 }
 
 .red li{
-    padding: 7px;
     font-size: 20px;
     list-style: none;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .red img{
