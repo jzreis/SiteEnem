@@ -1,0 +1,17 @@
+.motivacao2000{
+    width: 80%;
+    padding: 7px;
+    margin: auto;
+}
+
+.motivacao2000 iframe{
+    margin: 0.3%;
+    border-radius: 5%;
+}
+
+.motivacao2000 h1{
+    color: var(--color4);
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+}
