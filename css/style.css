@@ -48,29 +48,33 @@ nav{
 .navlist li{
     margin: 10px;
 }
-
-.navlist li a{
-    color: var(--color7);
+.navlist a{
     text-decoration: none;
-}
-
-.navlist li a:hover{
-    color:var(--color5);
-}
-
-.navlist ul a{
     color: var(--color7);
-    text-decoration: none;
+}
+.navlist ul{
+    position: absolute;
+    display: none;
+    list-style: none;
 }
 
-.navlist ul a:hover{
-    color:var(--color5);
+.navlist li:hover ul{
+    display: block;
 }
+
+.navlist ul{
+    width: 100px;
+}
+
 p{
     letter-spacing: 1px;
     color:var(--color7);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+a{
+    color:var(--color4);
 }
 
 

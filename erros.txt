@@ -1,29 +1,7 @@
-- Você não está utilizando incorretamente títulos. Na página materiais, por exemplo, claramente o primeiro é um h1 e os demais h2.
-
-- h1 longo na página motivacional. Você não pode simplesmente usar uma tag por conta da formatação dela, você deve usar a tag semânticamente correta para o propósito e formatá-la ao seu gosto. Claramente o conteúdo não é um título.
-
-- Centralize os videos incorporados. Se for deixar dois a dois, pelo menos bota um numero par de videos.
-
 - Seu site não tem audio.
 
 - Seu site não tem video baixado
 
-- Seu site não tem nada em JavaScript
-
-- Faça a utilização de um CSS inline no seu site.
-
-- Na página materiais de estudos, substitua a tag main pela tag article. Cada disciplina e também o gabarito devem ser colocados individualmente em uma outra tag de caixa, section.
-
 - Seu site não tem formulário.
 
-- Crie subtópicos/submenu.
 
-- Aumente a distância entre linhas do conteúdo textual.
-
-- Você não informou qual é a sua paleta de cores, com isso não posso conferir se você ta certo ou errado nisso.
-
-- Tirando o style.css, os seus outros arquivos CSS não tem a configuração de charset.
-
-- Configure seu a para ter uma formatação diferente do resto do conteúdo textual. Não tá nem dando pra entender que é um link.
-
-- Uso errado do prev.
