@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.formulario{
+    width: 80%;
+    margin:auto;
+    padding: 10px;
+}
+
+.midia{
+    width: 80%;
+    margin: auto;
+}
+
+.midia p{
+    font-size: 20px;
+}

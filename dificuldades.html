@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dificuldades.css">
+    <title>Dificuldades</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="navlist">
+                <li><a href="index.html" rel="prev">Home</a></li>
+                <li><a href="plano.html">Plano</a></li>
+                <li><a href="redacao.html">Redacao</a></li>
+                <li><a href="materiais.html">Materiais</a></li>
+                <li>
+                    <a href="#">Apoio</a>
+                    <ul>
+                        <li><a href="motivacional.html">Motivacional</a></li>
+                        <li><a href="dificuldades.html">Dificuldades</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="formulario">
+        <form>
+            <fieldset>
+                <legend>Cadastro</legend>
+                <label for="nome">Nome: </label><input type="text" name="nome" id="idNome" size="50"
+                    placeholder="Nome completo">
+                <label for="senha">Senha: </label><input type="password" id="idSenha" name="senha"
+                    placeholder="Senha">
+                <label for="email">E-mail: </label><input type="email" name="email" id="idEmail"
+                    placeholder="seu melhor e-mail">
+                <label for="data">Data: </label><input type="data" name="data" id="idData"
+                    placeholder="data de nascimento">
+                <label for="Pontuacao">Pontos: </label><input type="number" min="0" max="999"
+                    placeholder="Notas esperadas no proximo enem">
+                <label for="Desempenho">Seu desenpenho escolar: </label><input type="range" min="1" max="10">
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="XyMasc"><label for="XyMasc">Macho</label>
+                    <input type="radio" name="sexo" id="XxFem"><label for="XxFem">Femea</label>
+    
+                    <legend>Qual area voce mais tem dificuldade?</legend>
+                    <select name="dificuldades">
+                        <option value="1">Ciencias da Natureza</option>
+                        <option value="2">Ciencias humanas</option>
+                        <option value="3">Exatas</option>
+                        <option value="4">Linguagens</option>
+                    </select>
+    
+    
+                </fieldset>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="midia">
+        <video controls class="video">
+            <source src="Midia/COMO MELHORAR A INTERPRETAÇÃO PARA O ENEM.mp4" type="video/mp4">
+            <source src="Midia/COMO MELHORAR A INTERPRETAÇÃO PARA O ENEM.m4v" type="video/mp4">
+            <source src="Midia/COMO MELHORAR A INTERPRETAÇÃO PARA O ENEM.webm" type="video/webm">
+            <source src="Midia/COMO MELHORAR A INTERPRETAÇÃO PARA O ENEM .ogv" type="video/ogg">
+            <p>f</p>
+        </video>
+    
+        <p>Audio motivacional!</p>
+
+        <audio controls preload="metadata" loop>
+            <source src="Midia/Vai estudar caralho!!! (320 kbps).mpeg" type="audio/mpeg">
+            <source src="Midia/Vai estudar caralho!!! (320 kbps).ogg" type="audio/ogg">
+            <source src="Midia/Vai estudar caralho!!! (320 kbps).wav" type="audio/wav">
+            <p>f</p>
+        </audio>
+    </div>
+    
+</body>
+</html>
